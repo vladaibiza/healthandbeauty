@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукты LR - Лучшее для здоровья</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Продукты LR</h1>
+        <p>Здоровье и красота каждый день</p>
+    </header>
+
+    <section class="hero">
+        <img src="product-main.jpg" alt="Основной продукт">
+        <h2>Попробуйте лучшие продукты LR</h2>
+        <p>Оригинальные товары для здоровья и красоты. Натуральные ингредиенты и высшее качество.</p>
+        <a href="#contact" class="btn">Заказать сейчас</a>
+    </section>
+
+    <section class="products">
+        <h2>Наши продукты</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="aloe-vera.jpg" alt="Гель Алоэ Вера">
+                <h3>Гель Алоэ Вера</h3>
+                <p>Поддержка иммунитета и здоровья</p>
+                <a href="#contact" class="btn">Купить</a>
+            </div>
+            <div class="product">
+                <img src="mind-master.jpg" alt="Mind Master">
+                <h3>Mind Master</h3>
+                <p>Энергия и защита от стресса</p>
+                <a href="#contact" class="btn">Купить</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Отзывы клиентов</h2>
+        <div class="testimonial">
+            <p>"Гель Алоэ Вера помог мне улучшить пищеварение и общее самочувствие!"</p>
+            <strong>Анна К.</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Mind Master дает мне заряд энергии на весь день!"</p>
+            <strong>Иван П.</strong>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Свяжитесь с нами</h2>
+        <form id="order-form">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваш email" required>
+            <textarea name="message" placeholder="Ваш заказ или вопрос" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
